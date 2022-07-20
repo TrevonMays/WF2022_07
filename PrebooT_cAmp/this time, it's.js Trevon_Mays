@@ -1,0 +1,8 @@
+let childsHeight = num
+function displayIfChildIsAbleToRideTheRollerCoaster(){
+if(childsHeight < 58){
+    console.log('Get on that ride kiddo')
+} else {
+    console.log('Sorry kiddo. Mayybe next year')
+}
+}

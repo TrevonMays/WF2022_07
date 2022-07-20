@@ -1,0 +1,22 @@
+.Search{
+color: aquamarine;
+border: 20;
+border-radius: 50;
+display: block;
+width: 100px;
+}
+.Plus{
+    border: 100px;
+border-radius: 50px;
+background-color: aqua;
+display: block;
+margin: 10px;
+}
+.Create{
+    color: white;
+    background-color: blue;
+     border: 0px;
+border-radius: 0px;
+display: block;
+box-shadow: 100px;
+}
