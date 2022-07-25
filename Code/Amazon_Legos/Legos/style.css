@@ -1,0 +1,18 @@
+*{
+    color:rebeccapurple;
+    box-sizing: border-box;
+}
+header{
+    min-height: 20px;
+    background: lightblue;
+}
+main{
+    background-color: aquamarine;
+    min-height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-top{
+    min-height: 50px;
+    background-color: yellow;
+}

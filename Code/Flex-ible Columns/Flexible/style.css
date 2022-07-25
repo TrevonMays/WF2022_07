@@ -1,0 +1,32 @@
+.row {
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col {
+    color: azure;
+    flex: 1;
+}
+.col-2{
+    color: black;
+    flex: 1;
+}
+.col-3{
+    flex: 3;
+    color: beige;
+
+}
+body{
+display: flex;
+flex-direction: column;
+gap: 1em;
+}
+.box{
+ background-color: aqua;
+ font-size: 100%;
+ padding: 1em;
+}

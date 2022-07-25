@@ -1,0 +1,32 @@
+.container{
+    min-height: 250px;
+    margin: 0 auto;
+    width: 1000px;
+    bottom: 100px;
+}
+.box{
+    background-color: white;
+    min-height: 250px;
+    margin: 0 auto;
+    width: 1000px;
+    border-style: solid
+}
+.topbar{
+    background-color: aqua;
+    min-height: 100px;
+    margin: 0 auto;
+}
+.picture{
+    width: 100px;
+
+}
+.map-maker{
+    width: 25px;
+}
+.gear{
+    width: 25px;
+}
+
+.text{
+position: relative;
+}

@@ -1,0 +1,185 @@
+/* code that does not change */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: bold;
+
+}
+
+
+.top1 {
+    background-color: #333;
+    min-height: 100px;
+    width: 100%;
+}
+
+.friends {
+    width: 75px;
+    border-radius: 50%;
+
+}
+
+.top2 {
+    background-color: #333;
+    min-height: 100px;
+    width: 100%;
+    color: white;
+}
+
+.top3 {
+    min-height: 100px;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    border: solid;
+}
+
+.top4 {
+    min-height: 100px;
+    background-color: #333;
+    width: 100%;
+    color: white;
+}
+
+.fullpage {
+    height: 1000px;
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: underline;
+}
+
+/* code that doesnt change stops here */
+
+
+#page {
+    align-items: flex-start;
+}
+
+/* left side of page */
+.left {
+    min-height: 500px;
+    width: 500px;
+    flex: 2;
+
+}
+
+.face-1 {
+    background-color: white;
+    width: 100%;
+    min-height: 100px;
+}
+
+.face-2 {
+
+    width: 100%;
+    min-height: 250px;
+    border: solid;
+}
+
+/* left side of page ends */
+
+/* right side begins */
+.right {
+    min-height: 500px;
+    width: 200px;
+
+    flex: 1;
+}
+
+.face-3 {
+
+
+    min-height: 250px;
+    width: 100%
+}
+
+.face-4 {
+
+    min-height: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* right side ends */
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.bio {
+    min-height: 100px;
+    width: 100%;
+    border: solid;
+}
+
+.bluebar {
+    min-height: 100px;
+    background-color: hsl(188deg 80% 40%);
+    width: 100%;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.nav-title {
+    margin-left: 20px;
+
+}
+
+
+.nav-links {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+.nav a {
+    color: white;
+}
+
+
+.btn {
+    color: white;
+    background-color: white;
+    height: 35px;
+    width: 100px;
+    background-color: cyan;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+.people{
+    border: solid;
+}
